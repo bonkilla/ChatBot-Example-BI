@@ -9,7 +9,18 @@ ChatBot Sample for BI purposes
 
 3.- Create a Bot by BotFather via Telegram and get the Token
 
-4.- Write the token on file /resources/config.properties
+4.- Create a folder /resources/ with a file name config.properties. In that file must be information about Token and temporary attachments as this: 
+
+`************ TOKEN BOT *********************`
+
+`token=TOKEN FROM TELEGRAM`
+
+`endpoint=https://api.telegram.org/`
+
+`************ IMAGENES *********************`
+
+`attachments=/tmp/`
+
 
 ## Demo
 1. The java must be started. The output should be something similar to:
