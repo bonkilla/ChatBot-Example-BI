@@ -81,7 +81,7 @@ public class BotGetPropertyValues {
 				return prop.getProperty(key);
 			}			 
 		} catch (Exception e) {
-			System.out.println("Exception no me jodas: " + e);
+			System.out.println("Exception: " + e);
 		} finally {
 			inputStream.close();
 		}

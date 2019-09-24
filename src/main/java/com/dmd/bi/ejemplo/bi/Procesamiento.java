@@ -13,27 +13,6 @@ public class Procesamiento extends Thread {
 
 	public void run() {
 
-		// Primera parte, miramos si esta dado de alta, si es asi procesamos
-		// mensaje
-		// Si no esta devolvemos enviamos "Bienvenido"
-		
-
-		//System.out.println(msgIn.getText() + msgIn.getText().length());
-
-		/*
-		 * System.out.println(msgIn.getText().length());
-		 * System.out.println(msgIn.getText());
-		 * 
-		 * System.out.println(msgIn.getText()); Character a =
-		 * msgIn.getText().charAt(0);
-		 * System.out.println(Integer.decode(msgIn.getText()));
-		 */
-		// Bien ✅
-		// Regular ❗️
-		// Mal ‼️
-		//System.out.println(msgIn.getText());
-		//System.out.println(msgIn.getText().length());
-		
 		try {
 			
 			if (msgIn.getText() != null
@@ -108,7 +87,7 @@ public class Procesamiento extends Thread {
 
 
 				// Procesamos
-				System.out.println("Matcha!");
+				
 				TelegramMsg telMsg = new TelegramMsg(prop);
 				telMsg.botActivaTecladoSexo(Integer.parseInt(msgIn.getChat_id()), "Roger");
 

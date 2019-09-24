@@ -96,7 +96,7 @@ public class ejemplobi {
 		// timer.scheduleAtFixedRate(task, firstTime, period);
 
 		System.out.println("***************************************");
-		System.out.println("**********START BOT VY****************");
+		System.out.println("**********START BOT EXAMPLE BI*********");
 		System.out.println("***************************************");
 
 		ejemplobi bot = new ejemplobi();
